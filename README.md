@@ -4,7 +4,10 @@ Programas requisitados:
 - Pycharm
 - XAMPP Control Panel
 
-Guia de como utilizar o banco de dados com o Pycharm
+
+
+
+# Guia de como utilizar o banco de dados com o Pycharm
 
 1- Abra o Pycharm e crie um projeto (Você pode optar por utilizar um projeto já existente).
 
@@ -27,7 +30,7 @@ Guia de como utilizar o banco de dados com o Pycharm
 
 
 
-Guia de como Importar um banco de dados no phpMyAdmin
+# Guia de como Importar um banco de dados no phpMyAdmin
 
 1- Crie um banco de dados vazio com o nome "bubbles" (É necessário que o nome seja "bubbles" para o código funcionar).
 
