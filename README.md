@@ -11,7 +11,7 @@ Programas requisitados:
 
 1- Abra o Pycharm e crie um projeto (Você pode optar por utilizar um projeto já existente).
 
-2- No canto superior esquerdo clique em "file", depois em "Settings..." uma nova aba será aberta com opções de configuração.
+2- No canto superior esquerdo clique em "file", depois em "Settings...".  Uma nova aba será aberta com opções de configuração.
 
 3- Na nova aba clique em "Project: (<nome do seu projeto>)" e depois clique em "project interpreter".
 
