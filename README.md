@@ -1,4 +1,4 @@
-# bubbles
+# Bubbles
 
 Programas requisitados:
 - Pycharm
