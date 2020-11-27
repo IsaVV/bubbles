@@ -40,7 +40,7 @@ while (verificando == False):  # login
     if verificando == True:
         login_usuario = usuario_email(conexao, login_email)
 
-while opcao != 0: # menu
+while opcao != 0:  # menu
     opcao2 = 1
 
     print("\033[1;34m\n---------- MENU ----------\033[m"
@@ -66,6 +66,7 @@ while opcao != 0: # menu
         print("\033[1;34m\n---------- CHECK LIST ----------\033[m")
         pessoa = pessoa_por_usuario(conexao, login_usuario)
         checklist(conexao, pessoa)
+        libCalc.main()
 
     elif opcao == 3:
         while opcao2 != 0:
@@ -100,16 +101,16 @@ while opcao != 0: # menu
                     tarefa = str(input("Nova Tarefa: "))
 
                     add_work_to_table(conexao, tarefa)
-                    
-              elif opcao2 == 2:
-                  print("\033[1;34m\n---------- HORÁRIOS LIVRES ----------\033[m")
-                  print_horarios_livres(conexao)
+
+            elif opcao2 == 2:
+                print("\033[1;34m\n---------- HORÁRIOS LIVRES ----------\033[m")
+                print_horarios_livres(conexao)
 
     elif opcao == 5:
         while opcao2 != 0:
             print("\033[1;34m\n---------- AJUSTES ----------\033[m")
             print("1 - Editar conta"
-                  "\n2 - Notificações" 
+                  "\n2 - Notificações"
                   "\n3 - Acessibilidade"
                   "\n4 - Ajuda"
                   "\n5 - Sobre"
@@ -157,7 +158,6 @@ while opcao != 0: # menu
             elif opcao2 == 6:
                 quit()
 
-
 print("\n\033[1;33m <・)"
-"\n ( _ヲ\033[m"
-"\n\033[1;34m^^^＾^^^\033[m")
+      "\n ( _ヲ\033[m"
+      "\n\033[1;34m^^^＾^^^\033[m")
