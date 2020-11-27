@@ -400,7 +400,7 @@ def checklist(conexao, pessoa):
     dia = str(data(dia))
     cursor = conexao.cursor()
     cursor.execute(
-        "SELECT Tarefa, Hora_Inicio, Hora_Fim FROM Calendário WHERE Pessoa = '" + pessoa + "' AND Dia = '" + dia + "'")
+        "SELECT Tarefa, Hora_Inicio FROM Calendário WHERE Pessoa = '" + pessoa + "' AND Dia = '" + dia + "'")
     resultado = cursor.fetchall()
 
     if len(resultado) == 1:
@@ -413,8 +413,7 @@ def checklist(conexao, pessoa):
     outF = open("output.txt", "w")
     with open('out.txt', 'w') as f:
         for x in resultado:
-            if x[2] > time:
-                outF.writelines(str(x[0]) + "," + str(x[1]) + ") ")
+            outF.writelines(str(x[0]) + "," + str(x[1]) + ") ")
 
 def monthcalendar(conexao):
     cursor = conexao.cursor()
