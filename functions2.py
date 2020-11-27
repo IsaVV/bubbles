@@ -57,7 +57,7 @@ def print_dia(conexao, dia):
 
 def outtxt(conexao, pessoa):
     cursor = conexao.cursor()
-    cursor.execute("SELECT Tarefa, Hora_Inicio, Hora_Fim FROM Calendário WHERE Pessoa = '" + pessoa + "'")
+    cursor.execute("SELECT Tarefa, Hora_Inicio, FROM Calendário WHERE Pessoa = '" + pessoa + "'")
     resultado = cursor.fetchall()
 
     now = datetime.datetime.now()
