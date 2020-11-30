@@ -69,14 +69,14 @@ int enfileirar(struct line **lista, struct line **end, int hora_atual, char tare
 			new = (struct line *)malloc(sizeof(struct line));
 			new->next = NULL;
 			strcpy(new->tarefa, tarefa_atual);
-	    new->hora = hora_atual;
+	    		new->hora = hora_atual;
 			*lista = new;
 			*end = new;
 		} else { // quando a lista não for nula cria os próximos
 			new = (struct line *)malloc(sizeof(struct line));
 			new->next = NULL;
 			strcpy(new->tarefa, tarefa_atual);
-     	new->hora = hora_atual;
+     			new->hora = hora_atual;
 			(*end)->next = new;
 			*end = new;
 		}
