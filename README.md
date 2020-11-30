@@ -4,7 +4,7 @@ Programas requisitados:
 - Pycharm
 - XAMPP Control Panel
 
-# Inicialmente todos os arquivos presentes nesse repositório com exceção do lista.c devem estar na mesma pasta enquanto o programa estiver sendo rodado.
+Inicialmente todos os arquivos presentes nesse repositório com exceção do lista.c devem estar na mesma pasta enquanto o programa estiver sendo rodado.
 
 # Guia de como utilizar o banco de dados com o Pycharm
 
