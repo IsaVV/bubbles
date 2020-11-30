@@ -7,7 +7,7 @@
 //estrutura da lista
 struct line {
 	struct line *next;
-  int hora;
+        int hora;
 	char tarefa[T];
 };
 
