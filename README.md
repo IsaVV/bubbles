@@ -1,10 +1,12 @@
 # Bubbles
 
+# Inicialmente todos os arquivos presentes nesse repositório com exceção do lista.c devem estar na mesma pasta enquanto o programa estiver sendo rodado.
+
+Os passos descritos abaixo foram executados no sistema operacional Linux Ubuntu v 20.4.
+
 Programas requisitados:
 - Pycharm
 - XAMPP Control Panel
-
-Inicialmente todos os arquivos presentes nesse repositório com exceção do lista.c devem estar na mesma pasta enquanto o programa estiver sendo rodado.
 
 # Guia de como utilizar o banco de dados com o Pycharm
 
